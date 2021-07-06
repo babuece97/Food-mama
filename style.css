@@ -1,0 +1,23 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+.green-color {
+  color: green;
+}
+section {
+  display: flex;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, green);
+  color: white;
+  font-weight: 700;
+  padding: 12px 42px;
+  border-radius: 10px;
+}
+.second-banner {
+  background-image: url(images/shapes/7.png);
+}
