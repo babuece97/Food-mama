@@ -22,3 +22,27 @@ section {
 .second-banner {
   background-image: url(images/shapes/7.png);
 }
+
+.text-center {
+  text-align: center;
+}
+.recipies {
+  margin-top: 5%;
+}
+
+.recipieControl {
+  display: flex;
+}
+
+.recBox {
+  /* border: 2px solid; */
+  padding: 5%;
+  margin: 5%;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4%;
+}
+
+.recBox img {
+  max-width: 100%;
+  margin-bottom: 20%;
+}
