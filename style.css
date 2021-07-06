@@ -80,3 +80,60 @@ h1 {
 .topNav .navItems a:hover {
   color: orange;
 }
+
+.statusBar {
+  /* border: 2px solid; */
+  margin: 4% 2%;
+  padding: 3%;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.statusMain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foods {
+  margin-top: 5%;
+}
+
+.foodArea {
+  display: flex;
+}
+
+.foodBox {
+  padding: 5%;
+  margin: 5%;
+  box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4%;
+  border: 2px solid;
+}
+
+.foodBox img {
+  max-width: 100%;
+}
+
+.imgDesc h2 {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 900;
+  padding-bottom: 2%;
+}
+section.footer {
+  background-color: #111;
+  margin-top: 5%;
+}
+.footer h1 span {
+  color: orange;
+}
+.footer h1 {
+  color: gray;
+  padding-top: 3%;
+}
+
+.footer h3 {
+  color: #fff;
+  padding: 2% 0;
+}
+/* footer end */
