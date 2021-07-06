@@ -7,7 +7,7 @@ h1 {
 .green-color {
   color: green;
 }
-section {
+.flex-container {
   display: flex;
   margin-bottom: 100px;
 }
@@ -30,10 +30,6 @@ section {
   margin-top: 5%;
 }
 
-.recipieControl {
-  display: flex;
-}
-
 .recBox {
   /* border: 2px solid; */
   padding: 5%;
@@ -45,4 +41,42 @@ section {
 .recBox img {
   max-width: 100%;
   margin-bottom: 20%;
+}
+.text-center {
+  text-align: center;
+}
+
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  height: 10vh;
+}
+
+.navBar a {
+  text-decoration: none;
+}
+
+.topNav .logo a {
+  color: #111;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.topNav .logo a span {
+  color: orange;
+}
+
+.topNav .navItems {
+  margin-right: 1%;
+}
+
+.topNav .navItems a {
+  margin-right: 1em;
+  color: #111;
+}
+
+.topNav .navItems a:hover {
+  color: orange;
 }
